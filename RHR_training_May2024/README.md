@@ -29,7 +29,7 @@ To use the [GBR Data Management System (DMS)](https://stac.reefdata.io/browser/?
 | 16:30 | Feedback and conclusions                                      |
 | 17:00 | Closure                                                       |
 
-**NOTE:** Please read the [Pre-event Instructions](https://github.com/aodn/rimrep-training/blob/main/Pre-Event%20Instructions.pdf) before you attend the workshop to avoid delays on the day. You will likely need to install some `R` packages on your computer to run the examples.  
+**NOTE:** Please read the [Pre-event Instructions](https://github.com/gbr-dms/rimrep-training/blob/main/Pre-Event%20Instructions.pdf) before you attend the workshop to avoid delays on the day. You will likely need to install some `R` packages on your computer to run the examples.  
  
 ## How to use DMS services and data
 
@@ -124,7 +124,7 @@ We will be working on the following use case examples:
 3. Calculate DHW and DHD for a reef or region
 
 ## Notebooks
-Example notebooks for this workshop were developed in `R` because it is the most widely used programming language within the RHR team. However, the DMS can also be accessed using `Python`, you can see some examples in [this repository](https://github.com/aodn/rimrep-examples/tree/main/Python_based_scripts). Before running these `R` notebooks, make sure you have installed all libraries used in this workshop.
+Example notebooks for this workshop were developed in `R` because it is the most widely used programming language within the RHR team. However, the DMS can also be accessed using `Python`, you can see some examples in [this repository](https://github.com/gbr-dms/rimrep-examples/tree/main/Python_based_scripts). Before running these `R` notebooks, make sure you have installed all libraries used in this workshop.
   
 To keep the DMS secure and to allow for different access levels to non-public datasets via the API, we provide DMS users with unique credentials. To access the API, users must generate an access token using their credentials. These token last one hour and while current, users are able to access any public datasets in the DMS, as well as any non-public dataset for which they have been granted permission. User credentials should be treated similar to passwords and they should not be shared.
 

@@ -74,7 +74,7 @@ sites_shp <- sites_shp %>%
 glimpse(sites_shp)
 ```
 # Identifying AIMS sites within GBR feature of interest
-In this section, we will use the functions included in the [useful_spatial_functions_data_extraction](https://github.com/aodn/rimrep-examples/blob/main/poc-data-api/useful_spatial_functions_data_extraction.R) script to load GBR features of interest. We will then use the boundaries of the feature of interest to identify the names of the sites within these limits.  
+In this section, we will use the functions included in the [useful_spatial_functions_data_extraction](https://github.com/gbr-dms/rimrep-examples/blob/main/poc-data-api/useful_spatial_functions_data_extraction.R) script to load GBR features of interest. We will then use the boundaries of the feature of interest to identify the names of the sites within these limits.  
   
 We will use the `gbr_features` function to access the boundaries for our sites of interest. If no parameters are given to this function, it will load all features recognised by GBRMPA. You could also provide the name of the site using the `site_name` parameter or the GBRMPA unique ID using the `site_id` parameter. You can also use both parameters at the same time in case you have the names for some sites and the IDs for others.  
   
