@@ -4,11 +4,11 @@ This repository contains guidelines and example scripts for the GBR DMS training
   
 ## Running example notebooks in this repository
 You can either download or clone this repository to your local machine if you want to run the example notebooks included here. Below we include some instructions on how to set up you machine before you can successfully run the example notebooks.  
-If you are interested in learning about how to work with other datasets available in the DMS, you can check our [rimrep-examples repository](https://github.com/aodn/rimrep-examples).  
+If you are interested in learning about how to work with other datasets available in the DMS, you can check our [rimrep-examples repository](https://github.com/gbr-dms/rimrep-examples).  
   
 ## Setting up your machine
 
-If you do not have `R` or `Python` installed in your computer, you can check the [Pre-event Instructions](https://github.com/aodn/rimrep-training/blob/main/Pre-Event%20Instructions.pdf) document for more details about how to do this. If you already have them available in your machine, simply follow the steps below.  
+If you do not have `R` or `Python` installed in your computer, you can check the [Pre-event Instructions](https://github.com/gbr-dms/rimrep-training/blob/main/Pre-Event%20Instructions.pdf) document for more details about how to do this. If you already have them available in your machine, simply follow the steps below.  
   
 After making this repository available locally by either cloning or downloading it from GitHub, you need to ensure all packages used in this repository are installed in your local machine before running any notebooks. If any packages are not installed in your machine, you will not be able to run the example notebooks.
   
